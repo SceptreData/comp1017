@@ -1,0 +1,64 @@
+body {
+	font-family: Verdana;
+	color: #111;
+}
+
+/* Multiple Element Selector */
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	font-size: 14px;
+	font-family: Georgia, serif;
+}
+h1 {
+	padding: 48px;
+	color: #696969;
+	border-bottom: 1px solid #dedede;
+}
+h3 {
+	text-decoration: underline;
+}
+section {
+	margin: 48px;
+	padding: 36px;
+	width:800px;
+}
+
+/* Class Selector */
+.shot-type {
+	border-top: 24px solid rgba(0,0,0, 0.13);
+	background-color: #ededed;
+}
+.extreme {
+	background-color: red;
+}
+
+/* Descendant Selector */
+section h3 {
+	padding-bottom: 8px;
+	color: darkblue;
+}
+
+aside {
+	width: 600px;
+	margin-left: 24px;
+	margin-top: 24px;
+	background-color: #ededed;
+	padding: 24px;
+	font-family: "Gill Sans", serif;
+	font-style: italic
+
+}
+aside p {
+	font-size: 13px;
+	color: #777;
+}
