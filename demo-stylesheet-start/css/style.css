@@ -1,0 +1,17 @@
+p {
+	font-family: papyrus;
+}
+h1 {
+	font-family: Arial;
+	color: red;
+	background-color: chartreuse;
+}
+
+.odd {
+	background-color: goldenrod;
+	color: #ffffffdd;
+}
+
+.even {
+	background-color: gainsboro;
+}
