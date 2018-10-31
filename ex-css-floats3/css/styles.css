@@ -1,0 +1,60 @@
+body {
+	background-color: #fffff;
+	font-family: verdana, sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+main {
+	background-color: silver;
+	border: 2px solid black;
+}
+
+.red-box{
+	background-color: red;
+	height: 200px;
+	width: 301.333px;
+	float: left;
+	margin: 10px 0px 10px 10px;
+	border: 2px solid black;
+}
+
+.blue-box{
+	background-color: blue;
+	height: 200px;
+	width: 301.333px;
+	float: left;
+	margin: 10px 0px 10px 10px;
+	border: 2px solid black;
+}
+
+.yellow-box{
+	background-color: yellow;
+	height: 200px;
+	width: 301.333px;
+	float: left;
+	margin: 10px 0px 10px 10px;
+	border: 2px solid black;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
