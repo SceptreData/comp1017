@@ -1,0 +1,106 @@
+body {
+	background-color: #f2f2f2;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+	background-color: #123456;
+	padding: 24px;
+}
+
+h1,
+h2,
+h3,
+p,
+li {
+	font-family: Georgia, serif;
+	font-size: 24px;
+	text-align: center;
+	padding: 12px 0 12px 0;
+	color: #777777
+}
+
+nav,
+section {
+	background-color: #d6d6d6;
+	border: 2px solid #adadad;
+}
+
+li {
+	background-color: white;
+	width: 220px;
+	float: left;
+	margin: 12px 0 12px 12px;
+	border: 2px solid #adadad;
+}
+
+.row-two,
+.row-three{
+	margin: 24px 0 24px 0;
+}
+
+.row-two-topic {
+	background-color: white;
+	width: 908px;
+	margin: 24px 24px 24px 24px;
+	border: 2px solid #adadad;
+}
+
+.row-two-content {
+	background-color: white;
+	margin: 0 0 24px 24px;
+	width: 440px;
+	border: 2px solid #adadad;
+	float: left;
+}
+
+.row-three-header{
+	background-color: white;
+	width: 908px;
+	margin: 24px 24px 24px 24px;
+	border: 2px solid #adadad;
+}
+
+.row-three-section {
+	background-color: white;
+	width: 282.666px;
+	margin: 0 0 24px 24px;
+	border: 2px solid #adadad;
+	float: left
+}
+
+footer {
+	background-color: white;
+	width:908px;
+	margin: 0 24px 24px 24px;
+	border: 2px solid #adadad;
+}
+/*
+.red-box{
+	background-color: red;
+	height: 200px;
+	width: 301.333px;
+	float: left;
+	margin: 10px 0px 10px 10px;
+	border: 2px solid black;
+}
+*/
+
+/* CLEARFIX STUFF */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+ /* For IE 6/7 only */
+.clearfix {
+    *zoom: 1;
+}
