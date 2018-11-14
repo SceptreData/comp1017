@@ -1,0 +1,80 @@
+body {
+	background-color: white;
+	background-image: url(../img/like.gif);
+	/*background-repeat: no-repeat;*/
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	color: #0b777b;
+	font-size: 48px;
+	font-weight: bold;
+	text-shadow: 5px 5px blur #000;
+} 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.75;
+	text-align: center;
+	background-color: white;
+}
+.page-header {
+	background-image: url(../img/header-transparent.png);
+	background-repeat: no-repeat;
+	height: 400px;
+	background-color: #ecf4f5;
+/*	background-position: 50% 12%;*/
+}
+
+.blog-post {
+	margin-top: 69px;
+}
+
+.blog-post p {
+	color: #7f8c8c;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 84px 0 83px;
+}
+
+.blog-post footer {
+	margin-top: 15px;
+}
+
+.blog-post footer span{
+	color:#378184;
+	margin: 0 25px;
+}
+
+.blog-post footer img {
+	vertical-align: middle
+}
+
+strong {
+	color:#094244;
+	font-weight: bold;
+}
+
+.contact-links {
+}
+
+.hidden{
+	display:none;
+}
+
+/* CLEARFIX STUFF */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+ /* For IE 6/7 only */
+.clearfix {
+    *zoom: 1;
+}
