@@ -1,0 +1,87 @@
+body {
+	background-color: white;
+	font-family: 'Merriweather', serif;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+/* PAGE HEADER */
+.page-header {
+	height: 80px;
+	border-bottom: 1px solid #cdcdcd;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* Brand Section */
+.brand-logo {
+	float:left;
+	margin: 25px 13px 11px 10px;
+}
+
+.brand-box {
+	width: 645px;	
+	float: left;
+}
+.brand-title {
+	font-size: 30px;
+	color: #3c3d40;
+	padding-top: 24px;
+	/*margin-right: 437px;*/
+}
+
+a.brand-link, a.brand-link:visited {
+	text-decoration: none;
+	color: #3c3d40;
+}
+
+a.brand-link:hover {
+	border-bottom: 1px solid #3c3d40;
+}
+
+em {
+	color: #861919;
+}
+
+/* Header Navigation */
+.header-nav {
+	float: left;
+	width: 260px;
+	margin-top: 24px;
+}
+
+.header-nav-item {
+	float: left;
+	font-size: 18px;
+	margin-right: 41px;
+}
+
+.header-nav-item a, .header-nav-item a:visited {
+	text-decoration: none;
+	color: #3c3d40;
+}
+
+.header-nav-item a:hover {
+	border-bottom: 1px solid #3c3d40;
+}
+
+/* Current Page Separator */
+.cur-page-separator{
+	height: 42px;
+}
+
+.cur-page-location {
+	font-size: 16px;
+	margin: 13px 0 5px 11px;
+	color: #33353e;
+}
+
+
+/* Helper functions */
+.hidden {
+	display: none;
+}
