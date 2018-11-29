@@ -86,7 +86,7 @@ p.cur-page-location {
 
 .masthead-container{
 	height: 420px;
-	background-image: url(../img/banner.png);
+	background-image: url(../img/banner.jpg);
 }
 
 .masthead-content {
@@ -112,6 +112,55 @@ p.cur-page-location {
 	font-size: 14px;
 	margin-left: 23px;
 	margin-top: 12px;
+}
+
+/* Articles Section */
+
+
+.articles-separator {
+	margin-left: 10px;
+	height: 112px;
+	padding-bottom: 12px;
+}
+
+.articles-separator h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	text-transform: uppercase;
+	padding-top: 58px;
+}
+
+.separator-box {
+	width: 640px;
+	height: 12px;
+	background-color: #5d6439;
+}
+
+.article-item {
+	height: 420px;
+	width: 460px;
+	margin: 0 10px 40px 10px;
+	float: left;
+}
+
+.article-item img {
+}
+
+.article-item h4 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	background-color: white;
+	padding-left: 10px;
+	width: 155px;
+	height: 38px;
+	position: relative;
+	bottom: 37px;
+	margin-bottom: 	-18px;
+}
+
+.article-item p {
+	font-size: 16px;
 }
 
 /* Helper functions */
