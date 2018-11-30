@@ -44,7 +44,7 @@ li {
 
 .row-two-topic {
 	background-color: white;
-	width: 908px;
+	width: 904px;
 	margin: 24px 24px 24px 24px;
 	border: 2px solid #adadad;
 }
@@ -52,14 +52,24 @@ li {
 .row-two-content {
 	background-color: white;
 	margin: 0 0 24px 24px;
-	width: 440px;
+	width: 438px;
+	height:438px;
 	border: 2px solid #adadad;
 	float: left;
 }
 
+/* Contained in Row Two */
+footer {
+	background-color: white;
+	width:904px;
+	margin: 0 24px 24px 24px;
+	border: 2px solid #adadad;
+}
+
 .row-three-header{
 	background-color: white;
-	width: 908px;
+	width: 904px;
+	height: 438px;
 	margin: 24px 24px 24px 24px;
 	border: 2px solid #adadad;
 }
@@ -67,17 +77,13 @@ li {
 .row-three-section {
 	background-color: white;
 	width: 282.666px;
+	height: 282.666px;
 	margin: 0 0 24px 24px;
 	border: 2px solid #adadad;
 	float: left
 }
 
-footer {
-	background-color: white;
-	width:908px;
-	margin: 0 24px 24px 24px;
-	border: 2px solid #adadad;
-}
+
 /*
 .red-box{
 	background-color: red;
