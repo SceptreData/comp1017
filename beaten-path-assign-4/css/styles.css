@@ -297,6 +297,21 @@ footer nav a:hover{
 
 
 /* CHECKOUT PAGE SECTION */
+
+.breadcrumb, .breadcrumb:visited {
+	color: #33353e;
+	text-decoration: -webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.breadcrumb:hover {
+	color: #861919 ;
+
+}
+
 .checkout-banner {
 	height: 99px;
 }
@@ -341,18 +356,23 @@ footer nav a:hover{
 
 .information-container {
 	background-color: white;
-	height: 570px;
-	width: 630px;
+	width: 612px;
 	margin-top: 23px;
 	float:left;
 	margin-left: 10px;
+	padding-left: 10px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 .information-container h3 {
 	font: 36px 'Oswald', sans-serif;
+	text-transform: uppercase;
+	padding-top: 30px;
 }
 
 .information-container p {
+	padding-top: 2px;
 	font-size: 16px;
 }
 
@@ -360,12 +380,16 @@ input {
 	background-color: #f9f9f9;
 	border: 1px solid #cdcdcd;
 	border-radius: 3px;
-	height: 36px;
+	height: 35px;
 }
 
 .form-row {
 	height: 70px;
-	margin-top: 30px;
+	margin-top: 18px;
+}
+
+.form-row div:first-child {
+	margin-right: 20px;
 }
 
 .middle-form, .short-form, .long-form {
@@ -386,7 +410,87 @@ input {
 }
 
 label {
+	color: #8f8f8f;
 	display:block;
+	font-size: 14px;
+}
+
+label em {
+	font-weight: bold;
+}
+
+.checkout-button {
+	text-align: center;
+}
+button {
+	text-transform: uppercase;
+	margin-top: 35px;
+	font-family: 'Merriweather', serif;
+	color: #ffffff;
+	font-size: 16px;
+	background-color: #5d6439;
+	height: 38px;
+	width: 300px;
+	border: none;
+}
+
+.payment-container {
+	float:left;
+	margin-top: 23px;
+	margin-left: 20px;
+	background-color: #ffffff;
+	width: 300px;
+	height: 420px;
+}
+
+.item-description {
+	margin-left: 10px;
+	width: 280px;
+	border-bottom: 2px solid #cdcdcd
+}
+
+.item-description h3 {
+	padding-top: 30px;
+	padding-bottom: 35px;
+	font: 36px 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+.item-description img {
+	float:left;
+}
+
+.item-description p {
+	width: 150px;
+	float: left;
+}
+
+.item-description em {
+	font-weight: bold;
+	float:right;
+	margin-top: 65px;
+	padding-bottom: 12px;
+}
+
+.price-totals {
+	width: 280px;
+	margin-left: 10px;
+	line-height: 38px;
+}
+
+.total-cost {
+	background-color: #cdcdcd;
+}
+
+.total-cost td:first-child {
+	width: 170px;
+	padding-left: 5px;
+	border-right: 10px solid white;
+}
+.price-totals td:nth-child(2){
+	width: 94px;
+	text-align: right;
+	padding-right: 5px;
 }
 
 /* Helper functions */

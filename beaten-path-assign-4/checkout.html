@@ -44,7 +44,7 @@
 		</header>
 
 		<div class="cur-page-separator">
-			<p class="cur-page-location"><a href="index.html">Home</a> / <a href="shop.html">Shop </a>/ Payment</p>
+			<p class="cur-page-location "><a href="index.html" class="breadcrumb">Home</a> / <a href="shop.html" class="breadcrumb">Shop </a>/ Payment</p>
 		</div>
 
 		<main>
@@ -71,33 +71,33 @@
 				<section class="information-container">
 					<h3> Customer Information </h3>
 					<p> Add your address details </p>
-					<form>
-						<div class="form-row">
+					<form class="clearfix">
+						<div class="form-row clearfix">
 							<div class="middle-form">
 								<label for="firstname">First Name <em>*</em></label>
 								<input id="firstname" type="text">
 							</div>
 
-							<div class="middle-form">
+							<div class="middle-form clearfix">
 								<label for="lastname">Last Name <em>*</em></label>
 								<input id="lastname" type="text">
 							</div>
 						</div>
 
-						<div class="form-row">
+						<div class="form-row clearfix">
 							<div class="long-form">
 								<label for="streetaddress">Street Address</label>
 								<input id="streeaddress" type="text">
 							</div>
 
 
-							<div class="short-form">
+							<div class="short-form clearfix">
 								<label for="roomnumber">Apt / Unit / Suite</label>
 								<input id="streeaddress" type="text">
 							</div>
 						</div>
 
-						<div class="form-row">
+						<div class="form-row clearfix">
 							<div class="long-form">
 								<label for="city">City <em>*</em></label>
 								<input id="city" type="text">
@@ -109,7 +109,7 @@
 							</div>
 						</div>
 
-						<div class="form-row">
+						<div class="form-row clearfix">
 							<div class="short-form">
 								<label for="postalcode">Postal Code</label>
 								<input id="postalcode" type="text">
@@ -128,31 +128,29 @@
 				</section>
 
 				<section class ="payment-container">
-					<div class="item-description">
+					<div class="item-description clearfix">
 						<h3> Order Summary </h3>
 						<img src="img/bp-small.jpg" alt="Osprey Kestrel">
 						<p> Osprey Kestrel 68L Backpack - Red</p>
 						<em>$247.99</em>
 					</div>
 
-					<div class="price-totals">
-						<table>
-							<tbody>
-								<tr>
-									<td>Subtotal</td>
-									<td>$247.99</td>
-								</tr>
-								<tr>
-									<td>Shipping</td>
-									<td>$10.00</td>
-								</tr>
-								<tr class="total-cost">
-									<td>Total Cost</td>
-									<td>$257.99</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
+					<table class="price-totals">
+						<tbody>
+							<tr>
+								<td>Subtotal</td>
+								<td>$247.99</td>
+							</tr>
+							<tr>
+								<td>Shipping</td>
+								<td>$10.00</td>
+							</tr>
+							<tr class="total-cost">
+								<td>Total Cost</td>
+								<td>$257.99</td>
+							</tr>
+						</tbody>
+					</table>
 
 				</section>
 
