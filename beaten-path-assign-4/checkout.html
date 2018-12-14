@@ -15,7 +15,7 @@
     <!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 	<![endif]-->
-    <title>The Beaten Path</title>
+    <title>Shop - Checkout - The Beaten Path</title>
 </head>
 
 <body>
@@ -48,17 +48,17 @@
 		</div>
 
 		<main>
-			<section class="main-body">
+			<section class="main-body clearfix">
 				<div class="checkout-banner">
 						<h2>Payment Checkout</h2>
 				</div>
 
-				<div class="current-step-container">
+				<div class="current-step-container clearfix">
 					<div class="step-one">
 						<p>
 							Step 1 - Shipping Information
-							<img src="img/check.png" alt="Checkmark">
 						</p>
+						<img src="img/check.png" alt="Checkmark">
 					</div>
 
 					<div class="step-two">
@@ -72,52 +72,88 @@
 					<h3> Customer Information </h3>
 					<p> Add your address details </p>
 					<form>
-						<div class="first-name">
-							<label for="firstname">First Name <em>*</em></label>
-							<input id="firstname" type="text">
+						<div class="form-row">
+							<div class="middle-form">
+								<label for="firstname">First Name <em>*</em></label>
+								<input id="firstname" type="text">
+							</div>
+
+							<div class="middle-form">
+								<label for="lastname">Last Name <em>*</em></label>
+								<input id="lastname" type="text">
+							</div>
 						</div>
 
-						<div class="last-name">
-							<label for="lastname">Last Name <em>*</em></label>
-							<input id="lastname" type="text">
+						<div class="form-row">
+							<div class="long-form">
+								<label for="streetaddress">Street Address</label>
+								<input id="streeaddress" type="text">
+							</div>
+
+
+							<div class="short-form">
+								<label for="roomnumber">Apt / Unit / Suite</label>
+								<input id="streeaddress" type="text">
+							</div>
 						</div>
 
-						<div class="street-address">
-							<label for="streetaddress">Street Address</label>
-							<input id="streeaddress" type="text">
+						<div class="form-row">
+							<div class="long-form">
+								<label for="city">City <em>*</em></label>
+								<input id="city" type="text">
+							</div>
+
+							<div class="short-form">
+								<label for="province">Province</label>
+								<input id="province" type="text">
+							</div>
 						</div>
 
-						<div class="room-number">
-							<label for="roomnumber">Apt / Unit / Suite</label>
-							<input id="streeaddress" type="text">
-						</div>
+						<div class="form-row">
+							<div class="short-form">
+								<label for="postalcode">Postal Code</label>
+								<input id="postalcode" type="text">
+							</div>
 
-						<div class="your-city">
-							<label for="city">City <em>*</em></label>
-							<input id="city" type="text">
-						</div>
-
-						<div class="your-province">
-							<label for="province">Province</label>
-							<input id="province" type="text">
-						</div>
-
-						<div class="postal-code">
-							<label for="postalcode">Postal Code</label>
-							<input id="postalcode" type="text">
-						</div>
-
-						<div class="phone-number">
-							<label for="phonenumber">Phone Number <em>*</em></label>
-							<input id="phonenumber" type="text">
+							<div class="long-form">
+								<label for="phonenumber">Phone Number <em>*</em></label>
+								<input id="phonenumber" type="text">
+							</div>
 						</div>
 
 						<div class="checkout-button">
 							<button type="submit">Continue Checkout</button>
 						</div>
+					</form>
 				</section>
 
 				<section class ="payment-container">
+					<div class="item-description">
+						<h3> Order Summary </h3>
+						<img src="img/bp-small.jpg" alt="Osprey Kestrel">
+						<p> Osprey Kestrel 68L Backpack - Red</p>
+						<em>$247.99</em>
+					</div>
+
+					<div class="price-totals">
+						<table>
+							<tbody>
+								<tr>
+									<td>Subtotal</td>
+									<td>$247.99</td>
+								</tr>
+								<tr>
+									<td>Shipping</td>
+									<td>$10.00</td>
+								</tr>
+								<tr class="total-cost">
+									<td>Total Cost</td>
+									<td>$257.99</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
 				</section>
 
 		</main>

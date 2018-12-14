@@ -297,7 +297,6 @@ footer nav a:hover{
 
 
 /* CHECKOUT PAGE SECTION */
-
 .checkout-banner {
 	height: 99px;
 }
@@ -307,6 +306,87 @@ footer nav a:hover{
 	text-transform: uppercase;
 	font-size: 48px;
 	margin-left: 10px;
+}
+
+.current-step-container {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	background-color: white;
+	text-align: center;
+	height: 34px;
+	width: 940px;
+	margin-left: 10px;
+
+}
+
+.step-one {
+	border: 3px solid #6d7444;
+	float:left;
+	width: 464px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+
+.step-one img {
+	float: right;
+	margin-right: 102px;
+	margin-top: -20px;
+}
+
+.step-two {
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+
+.information-container {
+	background-color: white;
+	height: 570px;
+	width: 630px;
+	margin-top: 23px;
+	float:left;
+	margin-left: 10px;
+}
+
+.information-container h3 {
+	font: 36px 'Oswald', sans-serif;
+}
+
+.information-container p {
+	font-size: 16px;
+}
+
+input {
+	background-color: #f9f9f9;
+	border: 1px solid #cdcdcd;
+	border-radius: 3px;
+	height: 36px;
+}
+
+.form-row {
+	height: 70px;
+	margin-top: 30px;
+}
+
+.middle-form, .short-form, .long-form {
+	float: left;
+	margin-right: 10px;
+}
+
+.middle-form input {
+	width: 286px;
+}
+
+.long-form input {
+	width: 448px;
+}
+
+.short-form input {
+	width: 128px;
+}
+
+label {
+	display:block;
 }
 
 /* Helper functions */
